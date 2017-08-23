@@ -38,7 +38,7 @@ return (
 
 	<form onSubmit={this.onFormSubmit} className="input-group">
 
-		<input placeholder="get a five day forecast in favorite city"
+		<input placeholder="Search Weather by City"
 		className="form-control"
 		value={this.state.term}
 		onChange={this.onInputChange} />
